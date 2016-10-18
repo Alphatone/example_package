@@ -1,3 +1,5 @@
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:example_package/Configuration/TypoScript/lib/">
+
 ## PAGE
 page = PAGE
 page.10 = FLUIDTEMPLATE
@@ -15,7 +17,7 @@ page.10 {
             }
         }
 
-        ifEmpty = Default
+        ifEmpty = MainTemplate
     }
 
     templateRootPaths {
